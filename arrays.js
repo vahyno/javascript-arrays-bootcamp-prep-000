@@ -43,3 +43,5 @@ function removeElementFromEndOfArray(array){
   //array.pop();
   return newArray;
 }
+
+console.log(removeElementFromEndOfArray(chocolateBars))
