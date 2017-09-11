@@ -45,4 +45,4 @@ function removeElementFromEndOfArray(array){
   //return array;
 }
 
-removeElementFromEndOfArray([1,2,3,5])
+removeElementFromEndOfArray([1,2,3,4])
