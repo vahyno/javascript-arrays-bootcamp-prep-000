@@ -39,10 +39,10 @@ function destructivelyRemoveElementFromEndOfArray(array){
   return array;
 }
 function removeElementFromEndOfArray(array){
-  console.log(array.slice(0,array.lenght-1))
+  console.log(array.slice(0,array.lenght-1));
   return array.slice(0,array.lenght-1);
   //return array.pop();
   //return array;
 }
 
-removeElementFromEndOfArray(chocolateBars)
+removeElementFromEndOfArray([1,2,3,5])
