@@ -39,9 +39,9 @@ function destructivelyRemoveElementFromEndOfArray(array){
   return array;
 }
 function removeElementFromEndOfArray(array){
-  var newArray = array.slice(0,array.lenght-1);
-  //array.pop();
-  return newArray;
+  //var newArray = array.slice(0,array.lenght-1);
+  return array.pop();
+  //return newArray;
 }
 
 console.log(removeElementFromEndOfArray(chocolateBars))
