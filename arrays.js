@@ -44,4 +44,4 @@ function removeElementFromEndOfArray(array){
   //return array;
 }
 
-console.log(removeElementFromEndOfArray(chocolateBars))
+removeElementFromEndOfArray(chocolateBars)
